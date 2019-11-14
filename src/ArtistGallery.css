@@ -1,0 +1,8 @@
+.ArtistGallery {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  border: 1px solid blue;
+  width: 90%;
+}

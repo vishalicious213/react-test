@@ -14,3 +14,7 @@
   border: 1px solid indigo;
   border-radius: .25rem;
 }
+
+.ArtistGalleryThumbnail:hover {
+  border: 1px solid red;
+}

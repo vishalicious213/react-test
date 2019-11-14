@@ -18,3 +18,7 @@
 .ArtistGalleryThumbnail:hover {
   border: 1px solid red;
 }
+
+.ArtistGalleryImage {
+  width: 100%;
+}

@@ -19,7 +19,7 @@ function ArtistGallery() {
         return (
           <div className="ArtistGalleryThumbnail" key={artist.name}>
             <img className="ArtistGalleryImage" src={require(`${artist.img}`)} alt={artist.name}></img>
-            {artist.name}
+            <div class="attribution">{artist.name}</div>
           </div>
         )
       })}

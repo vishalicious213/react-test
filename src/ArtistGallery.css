@@ -13,6 +13,9 @@
   margin: .5rem;
   border: 1px solid indigo;
   border-radius: .25rem;
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 .ArtistGalleryThumbnail:hover {
@@ -21,4 +24,13 @@
 
 .ArtistGalleryImage {
   width: 100%;
+}
+
+.attribution {
+  width: 100%;
+  background: black;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

@@ -6,7 +6,21 @@ import './ArtistGallery.css';
 function ArtistGallery() {
   return (
     <section className="ArtistGallery">
-      
+      <div className="ArtistGalleryThumbnail">
+        image
+      </div>
+      <div className="ArtistGalleryThumbnail">
+        image
+      </div>
+      <div className="ArtistGalleryThumbnail">
+        image
+      </div>
+      <div className="ArtistGalleryThumbnail">
+        image
+      </div>
+      <div className="ArtistGalleryThumbnail">
+        image
+      </div>
     </section>
   );
 }

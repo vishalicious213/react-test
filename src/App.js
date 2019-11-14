@@ -9,9 +9,9 @@ function App() {
     <div className="mainProgram">
       <section className="top">
         <nav className="navBar">
-          <i class="navIcon fas fa-home" title="Home"></i>
-          <i class="navIcon fas fa-plus-circle" title="Upload"></i>
-          <i class="navIcon fas fa-sign-in-alt" title="Sign in/Register"></i>
+          <i className="navIcon fas fa-home" title="Home"></i>
+          <i className="navIcon fas fa-plus-circle" title="Upload"></i>
+          <i className="navIcon fas fa-sign-in-alt" title="Sign in/Register"></i>
         </nav>
 
         <div className="banner">
@@ -22,7 +22,7 @@ function App() {
           <input className="artistSearchBox" type="text" name="search" placeholder="&#x1f50d; Search artists..." />
         </form>
       </section>
-      
+
       <ArtistGallery />
     </div>
   );

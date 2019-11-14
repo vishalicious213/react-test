@@ -12,7 +12,7 @@
 .ArtistGalleryThumbnail {
   margin: .5rem;
   border: 1px solid indigo;
-  border-radius: .25rem;
+  border-radius: .35rem;
   position: relative;
   text-align: center;
   color: white;
@@ -28,7 +28,7 @@
 
 .attribution {
   width: 100%;
-  background: black;
+  background: rgba(0, 0, 0, 0.65);
   position: absolute;
   top: 90%;
   left: 50%;

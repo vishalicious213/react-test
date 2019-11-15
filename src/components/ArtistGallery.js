@@ -18,8 +18,8 @@ function ArtistGallery() {
       {artists.map(artist => {
         return (
           <div className="ArtistGalleryThumbnail" key={artist.name}>
-            <img className="ArtistGalleryImage" src={require(`${artist.img}`)} alt={artist.name}></img>
-            <div class="attribution">{artist.name}</div>
+            <img className="ArtistGalleryImage" src={require(`${artist.img}`)} title={`${artist.name}'s works`} alt={`${artist.name}'s works`}></img>
+            <div className="attribution">{artist.name}</div>
           </div>
         )
       })}

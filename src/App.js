@@ -1,18 +1,17 @@
 import React from 'react';
+// import { Route } from 'react-router-dom';
 import './App.css';
-import ArtistGallery from "./ArtistGallery"
+import ArtistGallery from "./components/ArtistGallery"
+import NavBar from './components/NavBar';
 // import styled from 'styled-components';
-
 
 function App() {
   return (
     <div className="mainProgram">
       <section className="top">
-        <nav className="navBar">
-          <i className="navIcon fas fa-home" title="Home"></i>
-          <i className="navIcon fas fa-plus-circle" title="Upload"></i>
-          <i className="navIcon fas fa-sign-in-alt" title="Sign in/Register"></i>
-        </nav>
+        <NavBar />
+        {/* <Route path='/upload' component={} /> */}
+        {/* <Route path='/sign-in' component={} /> */}
 
         <div className="banner">
           <h1>Art Portfolio</h1>
